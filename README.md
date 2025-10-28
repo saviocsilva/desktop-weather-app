@@ -1,6 +1,6 @@
 # desktop-weather-app
 Brisa - Desktop Weather App
-Brisa is a clean, simple, and user-friendly desktop weather application built with Python. It provides real-time weather data, a 7-day forecast, and location-based search, all powered by the OpenWeatherMap API.
+Brisa is a clean, simple, and user-friendly desktop weather application built with Python. It provides real-time weather data, a 7-day forecast, and location-based search, all powered by the an weather API.
 
 Key Features
 Real-Time Weather: Get instant access to current temperature, humidity, and wind speed.
@@ -20,7 +20,7 @@ Backend Logic: Python
 
 Graphical User Interface (GUI): Tkinter (Python's native GUI library)
 
-API Integration: Requests library to fetch data from the OpenWeatherMap API.
+API Integration: Requests library to fetch data from the Weather API.
 
 Executable Packaging: PyInstaller was used to convert the Python script into a standalone Windows executable (.exe).
 
