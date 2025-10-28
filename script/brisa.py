@@ -109,12 +109,9 @@ class AppClima(QWidget):
             pass
 
     def obter_clima_por_coordenadas(self, lat, lon):
-        self.buscar_clima(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=ab9014a8413864f1e37b21de72cdaed6&lang=pt_br")
-
-    def ver_clima(self):
         cidade = self.cidade_input.text()
         if cidade:
-            self.buscar_clima(f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid=ab9014a8413864f1e37b21de72cdaed6&lang=pt_br")
+            #BUSCAR API
 
     def buscar_clima(self, url):
         try:
