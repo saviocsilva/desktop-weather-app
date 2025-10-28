@@ -111,7 +111,7 @@ class AppClima(QWidget):
     def obter_clima_por_coordenadas(self, lat, lon):
         cidade = self.cidade_input.text()
         if cidade:
-            #BUSCAR API
+            # API
 
     def buscar_clima(self, url):
         try:
