@@ -143,7 +143,7 @@ class AppClima(QWidget):
 
     def ver_previsao(self):
         cidade = self.cidade_input.text()
-        url = f"https://api.openweathermap.org/data/2.5/forecast?q={cidade}&appid=ab9014a8413864f1e37b21de72cdaed6&lang=pt_br"
+        #INSERT API HERE
 
         try:
             response = requests.get(url)
